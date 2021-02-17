@@ -1,0 +1,445 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Volos",
+				"abbreviation": "VLS",
+				"full": "Volos",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1613595233,
+		"dateLastModified": 1613595233
+	},
+	"monster": [
+		{
+			"name": "Kairos",
+			"isNamedCreature": true,
+			"source": "Volos",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"high elf"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"condition": "(with {@spell mage armor})"
+				}
+			],
+			"hp": {
+				"formula": "30d10 + 120",
+				"average": 285
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 40,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 10,
+			"dex": 20,
+			"con": 18,
+			"int": 24,
+			"wis": 18,
+			"cha": 18,
+			"save": {
+				"int": "+14",
+				"wis": "+11",
+				"con": "+11",
+				"dex": "+12"
+			},
+			"skill": {
+				"arcana": "+21",
+				"history": "+21",
+				"perception": "+18",
+				"nature": "+14",
+				"religion": "+21",
+				"investigation": "+14"
+			},
+			"senses": [
+				"darkvision 300 ft."
+			],
+			"passive": 28,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning"
+			],
+			"languages": [
+				"Abyssal",
+				"Celestial",
+				"Common",
+				"Draconic",
+				"Infernal",
+				"Elvish",
+				"Undercommon"
+			],
+			"cr": "23",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kairos is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 22}, {@hit 14} to hit with spell attacks). He can cast {@spell disguise self} and {@spell invisibility} at will. He can cast {@spell fly} and {@spell lightning bolt} once each without expending a spell slot, but can't do so again until he finishes a short or long rest. Kairos has the following wizard spells prepared:"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell invisibility}"
+					],
+					"daily": {
+						"1": [
+							"{@spell fly}",
+							"{@spell lightning bolt}"
+						]
+					},
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell dancing lights}",
+								"{@spell fire bolt}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell mage armor}",
+								"{@spell magic missile}",
+								"{@spell shield}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell arcane lock}",
+								"{@spell cloud of daggers}",
+								"{@spell mirror image}",
+								"{@spell knock}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell dispel magic}",
+								"{@spell fireball}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell confusion}",
+								"{@spell hallucinatory terrain}",
+								"{@spell polymorph}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell Bigby's hand}",
+								"{@spell geas}",
+								"{@spell wall of force}"
+							],
+							"slots": 3
+						},
+						"6": {
+							"spells": [
+								"{@spell chain lightning}",
+								"{@spell globe of invulnerability}",
+								"{@spell programmed illusion}"
+							],
+							"slots": 2
+						},
+						"7": {
+							"spells": [
+								"{@spell finger of death}",
+								"{@spell symbol}",
+								"{@spell teleport}"
+							],
+							"slots": 2
+						},
+						"8": {
+							"spells": [
+								"{@spell maze}",
+								"{@spell mind blank}"
+							],
+							"slots": 1
+						},
+						"9": {
+							"spells": [
+								"{@spell meteor swarm}",
+								"{@spell wish}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Arcane Recovery (1/Day)",
+					"entries": [
+						"When he finishes a short rest, Kairos recovers all his spell slots of 5th level and lower."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Kairos fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Kairos has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Cast Spell",
+					"entries": [
+						"Kairos casts a spell of 3rd level or lower."
+					]
+				},
+				{
+					"name": "Spell Ward (Costs 2 Actions)",
+					"entries": [
+						"Kairos expends a spell slot of 4th level or lower and gains 5 temporary hit points per level of the slot."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Halaster Blackcloak",
+				"source": "WDMM"
+			},
+			"environment": [
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"As the master of Undermountain, Halaster can alter the entire dungeon to some extent. His lair actions and regional effects don't extend beyond Undermountain."
+										]
+									},
+									{
+										"type": "section",
+										"entries": [
+											"Halaster, the Mad Mage of Undermountain, is the deranged individual behind most of the traps and horrors found in the great dungeon under Waterdeep. Undermountain is his home, an amusement gallery in which others perform to entertain him.",
+											"The Mad Mage knows the ever-changing ways of Undermountain as no one else does, for he is the one who controls those changes. He prefers to remain unseen, skulking about invisibly or peering through scrying sensors that resemble wide-open eyes surrounded by sparkling motes of light.",
+											"Halaster's abilities far exceed those of most mortal wizards. His expertise with magic gates allows him to travel far and wide to engage in magical research. He spends much of his time creating gates, moving them around, and casting elder runes on them. Halaster's gates connect the different levels of Undermountain, thus enabling him to bring new monsters into the dungeon to replenish those that die or escape. Even as groups of adventurers try to gain decisive control of just a small section of Undermountain's halls, Halaster constantly alters the dungeon's perils to thwart them.",
+											"Halaster's true form is that of a tall, gaunt, male human, but he uses magic to take on many other visages and shapes. No matter what form he wears, the Mad Mage giggles and mutters incessantly. Contrary to appearances, however, Halaster is alert and attentive to the activities and preparations of all beings near him. He never willingly enters combat without first casting mage armor and mind blank on himself."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"On initiative count 20 (losing initiative ties), Halaster takes a lair action to cause one of the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"Halaster targets a volume of unoccupied space or solid stone no larger than four 10-foot cubes within 30 feet of him, turning the open space to solid, worked stone or vice versa.",
+											"Halaster causes one door or archway within 30 feet of him to disappear and be replaced by a blank wall, or he restores a door or an archway previously removed in this way.",
+											"Halaster deactivates or reactivates one of Undermountain's magic gates. The gate must be within 120 feet of him."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"When Halaster is in Undermountain, the following effects can occur in any location within the dungeon or in any extraplanar extension of the dungeon:",
+									{
+										"type": "list",
+										"items": [
+											"A magical scrying sensor appears, taking the form of a ghostly, 1-foot-diameter humanoid eye surrounded by motes of light. The sensor is stationary, though Halaster can reorient the eye to face in any direction. Halaster can see through the eye as though he was in its space. The eye can't be harmed or dispelled, but it winks out within an antimagic field. A scrying eye lasts until Halaster ends the effect (no action required).",
+											"A minor illusory effect is triggered, as though Halaster had cast {@spell minor illusion} in an area. Common illusions include the echo of rattling chains, the distant sound of explosive spells being cast, a dusty cloak or a rusty helm floating as though worn by an invisible figure, and illusory footprints appearing on a dusty floor.",
+											"Silent apparitions of dead adventurers drift through halls and rooms as though they are lost. An apparition can't be harmed, and it doesn't acknowledge creatures or objects in any way. It can't be dispelled but is suppressed within an antimagic field."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://www.gametruth.com/wp-content/uploads/2019/06/wizard.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.ibb.co/d6bLL19/Kairos.png",
+			"traitTags": [
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"CE",
+				"DR",
+				"E",
+				"I",
+				"U"
+			],
+			"damageTags": [
+				"T"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened",
+				"incapacitated",
+				"invisible",
+				"stunned",
+				"unconscious"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Elekron",
+			"source": "Volos",
+			"page": 2,
+			"size": "S",
+			"type": "elemental",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 13,
+			"dex": 20,
+			"con": 16,
+			"int": 5,
+			"wis": 10,
+			"cha": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Primordial"
+			],
+			"cr": "4",
+			"trait": [
+				{
+					"name": "Electric Form",
+					"entries": [
+						"The elekron can move through a space as narrow as 1 inch wide without squeezing. In addition, the elekron can enter a hostile creature’s space and stop there. The first time the elekron enters another creature’s space on a turn, that creature takes 5 ({@damage 1d10}) lightning damage. The amount of damage a creature takes increases to 11 ({@dice 2d10}) when the elekron is Medium or larger."
+					]
+				},
+				{
+					"name": "Illumination",
+					"entries": [
+						"The elekron sheds bright light in a 30-foot radius and dim light in an additional 30 feet."
+					]
+				},
+				{
+					"name": "Lightning Charge",
+					"entries": [
+						"Whenever the elekron is hit with an attack from a metal weapon, its size increases by one category. If there isn’t enough room for the elekron to increase in size, it attains the maximum size possible in the space available. When the elekron is Medium or larger, it can use its action to make two Shock attacks instead of one.  ",
+						"If the elekron starts its turn as a Huge or Gargantuan creature, it releases energy in wild arcs of electricity. Each creature within 30 feet of the elekron must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, and half as much damage on a successful one. The elekron’s size then becomes Small."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Shock",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d10 + 5}) damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"forest"
+			],
+			"fluff": {
+				"entries": [
+					"Also often referred to as “lightning in a bottle,” an elekron crackles with pure energy. Elekrons are most closely related to fire elementals, but unlike their flame-based cousins, elekrons have the incredible ability to consume raw energy from their environment and deal staggering amounts of damage."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/HQvjjie.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://i.imgur.com/IKIgm9g.png",
+			"traitTags": [
+				"Illumination"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"P"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			]
+		}
+	]
+}
